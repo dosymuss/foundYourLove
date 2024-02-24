@@ -1,0 +1,11 @@
+@import "../styles/Main.scss";
+
+.main{
+@include authStyle;
+ .backImg{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+}

@@ -1,0 +1,35 @@
+@import "../styles/Profile.module.scss";
+
+
+.contentDiv {
+    width: 50%;
+    padding-right: 150px;
+  }
+
+
+.btnDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    button:nth-child(1){
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+    }
+    p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 35px;
+        color: #000;
+    }
+}
+
+.editDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+}
+

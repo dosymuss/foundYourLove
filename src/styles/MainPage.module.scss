@@ -1,0 +1,33 @@
+.main{
+    background-color: black;
+    height: 100%;
+    padding: 50px 50px;
+}
+.mainLoad{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    padding: 50px 50px;
+}
+
+.contentDiv{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.cardDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.cardDivLoad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 200px;
+}

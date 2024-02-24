@@ -1,0 +1,30 @@
+@import "../../styles/Main.scss";
+
+.inp {
+  width: 350px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding-left: 10px;
+}
+
+.passDiv {
+  width: 350px;
+  height: 40px;
+  border: 2px solid white;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  input {
+    height: 40px;
+    width: 280px;
+    @include btnNullStyle;
+    color: white
+  }
+  button {
+    @include btnNullStyle;
+    height: 40px;
+  }
+}

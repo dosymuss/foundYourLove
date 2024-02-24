@@ -1,0 +1,95 @@
+.main {
+  width: 354px;
+  height: 338px;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 124px;
+    height: 144px;
+  }
+  p {
+    color: white;
+  }
+  p:nth-child(1) {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+  }
+}
+
+.menuDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 144px;
+  button{
+    background-color: transparent;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.menuBtn {
+  background-color: transparent;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+.menuBtnHid{
+  background-color: transparent;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  display: none !important;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.buttonDiv {
+  background-color: white;
+  div {
+    margin-bottom: 15px;
+  }
+  
+}
+
+.buttonDivHid {
+  background-color: white;
+  display: none;
+  div {
+    margin-bottom: 15px;
+  }
+  
+}

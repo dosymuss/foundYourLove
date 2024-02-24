@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.notDataText{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    color: #000;
+}
